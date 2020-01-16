@@ -1,0 +1,112 @@
+{
+  "problems": [
+    {
+      "id": "p1",
+      "steps": [
+        {
+          "questionText": "What is the capital of Massachusetts?",
+          "id": "q1",
+          "possibleAnswers": [
+            {
+              "id": 1,
+              "value": "Boston"
+            },
+            {
+              "id": 2,
+              "value": "Montpelier"
+            },
+            {
+              "id": 3,
+              "value": "Worcester"
+            },
+            {
+              "id": 4,
+              "value": "Stockbridge"
+            }
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "steps": [
+        {
+          "id": "q2",
+          "questionText": "What is the most populous state in the United States?",
+          "possibleAnswers": [
+            {
+              "id": 1,
+              "value": "New York"
+            },
+            {
+              "id": 2,
+              "value": "Massachusetts"
+            },
+            {
+              "id": 3,
+              "value": "Texas"
+            },
+            {
+              "id": 4,
+              "value": "California"
+            }
+          ],
+          "correctAnswer": 4
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "steps": [
+        {
+          "id": "q3",
+          "questionText": "Which is the longest river?",
+          "possibleAnswers": [
+            {
+              "id": 1,
+              "value": "Charles"
+            },
+            {
+              "id": 2,
+              "value": "Schuykill"
+            },
+            {
+              "id": 3,
+              "value": "Hudson"
+            },
+            {
+              "id": 4,
+              "value": "Connecticut"
+            }
+          ],
+          "correctAnswer": 3
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "instructions": "Solve this problem",
+      "steps": [
+        {
+          "id": "q4",
+          "questionText": "What is 2 + 2?",
+          "userInput": true,
+          "correctAnswer": 4
+        },
+        {
+          "id": "q5",
+          "questionText": "What is {previous} x 3?",
+          "userInput": true,
+          "correctAnswer": 12
+        },
+        {
+          "id": "q6",
+          "questionText": "What is {previous} / 4?",
+          "userInput": true,
+          "correctAnswer": 3
+        }
+      ]
+    }
+  ]
+}
